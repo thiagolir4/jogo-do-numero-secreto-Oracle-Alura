@@ -4,7 +4,8 @@
 // let paragrafo = document.querySelector('p')
 // paragrafo.innerHTML = 'Escolha um npumero entre 1 e 10';
 let listaDeNumerosSorteados = [];
-let numeroLimite = 10
+let numero = prompt('Digite o número maximo para o sorteiro');
+let numeroLimite = numero
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativas = 1;
 
